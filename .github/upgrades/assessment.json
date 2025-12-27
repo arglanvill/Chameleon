@@ -1,0 +1,211 @@
+{
+  "settings": {
+    "components": {
+      "code": false,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2025-12-27T22:41:49.5302906Z",
+  "analysisEndTime": "2025-12-27T22:41:55.0964413Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 4,
+      "incidents": 4,
+      "effort": 4
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 3,
+        "Optional": 0,
+        "Potential": 1,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 2,
+        "Project": 2
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "Chameleon.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "Chameleon",
+        "projectKind": "Uwp",
+        "frameworks": [
+          "net5.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 59,
+        "numberOfCodeFiles": 48,
+        "linesTotal": 4208,
+        "linesOfCode": 3710,
+        "totalApiScanned": 1408,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a231bc2a-1224-4c01-ab7c-cffca25a363a",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Chameleon.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.NETCore.UniversalWindowsPlatform, 6.2.10\n\nRecommendation:\n\nRemove Microsoft.NETCore.UniversalWindowsPlatform, and replace with new package Microsoft.WindowsAppSDK 1.8.251106002,\nMicrosoft.Graphics.Win2D 1.1.0,\nMicrosoft.Windows.Compatibility 10.0.1",
+              "protected": "Microsoft.NETCore.UniversalWindowsPlatform, 6.2.10\n\nRecommendation:\n\nRemove Microsoft.NETCore.UniversalWindowsPlatform, and replace with new package Microsoft.WindowsAppSDK 1.8.251106002,\nMicrosoft.Graphics.Win2D 1.1.0,\nMicrosoft.Windows.Compatibility 10.0.1"
+            },
+            "kind": "File",
+            "path": "Chameleon.csproj",
+            "snippet": "Microsoft.NETCore.UniversalWindowsPlatform, 6.2.10\n\nRecommendation:\n\nRemove Microsoft.NETCore.UniversalWindowsPlatform, and replace with new package Microsoft.WindowsAppSDK 1.8.251106002,\nMicrosoft.Graphics.Win2D 1.1.0,\nMicrosoft.Windows.Compatibility 10.0.1",
+            "protectedSnippet": "Microsoft.NETCore.UniversalWindowsPlatform, 6.2.10\n\nRecommendation:\n\nRemove Microsoft.NETCore.UniversalWindowsPlatform, and replace with new package Microsoft.WindowsAppSDK 1.8.251106002,\nMicrosoft.Graphics.Win2D 1.1.0,\nMicrosoft.Windows.Compatibility 10.0.1",
+            "label": "Microsoft.NETCore.UniversalWindowsPlatform 6.2.10",
+            "properties": {
+              "PackageId": "Microsoft.NETCore.UniversalWindowsPlatform",
+              "PackageVersion": "6.2.10",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Microsoft.WindowsAppSDK=1.8.251106002;Microsoft.Graphics.Win2D=1.1.0;Microsoft.Windows.Compatibility=10.0.1"
+            }
+          }
+        },
+        {
+          "incidentId": "b93dcd31-cd8e-43a7-a51f-5ab69646de3b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Chameleon.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid, 6.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid, 6.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "Chameleon.csproj",
+            "snippet": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid, 6.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid, 6.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid 6.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid",
+              "PackageVersion": "6.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e361b3b1-5253-4aff-9d2d-e72a7dfbe7e3",
+          "ruleId": "Project.0001",
+          "projectPath": "Chameleon.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Chameleon.csproj"
+          }
+        },
+        {
+          "incidentId": "3d71d150-2ca6-4a8f-88b3-2d8f24a8fe99",
+          "ruleId": "Project.0002",
+          "projectPath": "Chameleon.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETCore,Version=v5.0\nRecommended target framework: net10.0-windows10.0.22000.0",
+              "protected": "Current target framework: .NETCore,Version=v5.0\nRecommended target framework: net10.0-windows10.0.22000.0"
+            },
+            "kind": "File",
+            "path": "Chameleon.csproj",
+            "snippet": "Current target framework: .NETCore,Version=v5.0\nRecommended target framework: net10.0-windows10.0.22000.0",
+            "protectedSnippet": "Current target framework: .NETCore,Version=v5.0\nRecommended target framework: net10.0-windows10.0.22000.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETCore,Version=v5.0",
+              "RecommendedTargetFramework": "net10.0-windows10.0.22000.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
