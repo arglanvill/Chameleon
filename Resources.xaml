@@ -1,0 +1,14 @@
+﻿<ResourceDictionary
+    x:Class="Chameleon.Resources"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chameleon.Host.UI">
+
+    <DataTemplate x:Key="RegisterItemTemplate" x:DataType="local:ObservableRegister">
+        <StackPanel>
+            <TextBlock x:Name="NameBlock" Text="{Binding Name}" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding DisplayValue, Mode=OneWay}" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </DataTemplate>
+
+</ResourceDictionary>

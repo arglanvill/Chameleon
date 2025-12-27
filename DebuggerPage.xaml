@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Chameleon.MainPage"
+    x:Class="Chameleon.DebuggerPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Chameleon"
@@ -8,10 +8,6 @@
     xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid Margin="0,0,0,0">
-        <Button x:Name="PowerOn" Content="Power On" Margin="10,10,0,0" VerticalAlignment="Top" Click="PowerOn_Click"/>
-        <Button x:Name="PowerOff" Content="Power Off" Margin="108,10,0,0" VerticalAlignment="Top" Click="PowerOff_Click"/>
-        <Button x:Name="Debugger" Content="Debugger" Margin="206,10,0,0" VerticalAlignment="Top" Click="Debugger_Click"/>
-    </Grid>
+    <StackPanel x:Name="DebuggerPanel">
+    </StackPanel>
 </Page>
